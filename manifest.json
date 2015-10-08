@@ -1,0 +1,21 @@
+{
+  "name": "count_sale",
+  "version": "1.0",
+  "description": "count sale",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://item.taobao.com/item.htm*",
+        "http://item.taobao.com/item.htm*",
+        "https://detail.tmall.com/item.htm*"
+      ],
+      "js": [
+        "jquery.js",
+        "taobao.js",
+        "tmall.js",
+        "run.js"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
